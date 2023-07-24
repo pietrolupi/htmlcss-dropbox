@@ -25,6 +25,14 @@ body {
   background-color: green;
 }
 
+.h {
+  height: 500px;
+}
+
+.hbig {
+  height: 1000px;
+}
+
 
 /* /END DEBUG------------------------------------------- */
 
@@ -57,6 +65,11 @@ a {
   padding: 10px 20px;
 }
 
+section:not(.jumbotron) {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+}
 /* HEADER----------------------------------------------- */
 
 header {
@@ -129,4 +142,34 @@ header ul li a {
   font-weight: 900;
   padding-top: 40px;
  
+}
+
+/* section 2 */
+
+section:nth-child(2) h2 {
+  padding: 200px 0 50px 0;
+  font-size: 2.7rem;
+  font-weight: 800;
+}
+
+section:nth-child(2) span {
+  vertical-align: middle;
+  margin-right: 45px;
+}
+.circle {
+  border: 3px solid lightgray;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.circle-active {
+  border: 5px solid #0061ff;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
 }
