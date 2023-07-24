@@ -28,7 +28,9 @@ body {
 .height {
   height: 1400px;
 }
-
+.hsmall {
+  height: 400px;
+}
 .hbig {
   height: 4000px;
 }
@@ -51,6 +53,13 @@ body {
 .col {
   display: flex;
   flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+.space-between {
+  justify-content: space-between;
 }
 
 ul {
@@ -270,4 +279,21 @@ section:nth-child(3) {
   padding: 10px 20px;
   font-size: 1.2rem;
   color: #3d3d3d;
+}
+
+/* SECTION 4------------------------- */
+
+.db-business {
+  padding-top: 120px;
+}
+.db-business>h2 {
+  font-size: 2.8rem;
+}
+
+.business-card {
+  width: 32%;
+}
+
+.business-card img {
+  width: 100%;
 }
