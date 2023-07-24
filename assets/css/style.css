@@ -17,11 +17,11 @@ body {
   width: 100%;
 }
 
-.debug.dred {
+.dred {
   background-color: red;
 }
 
-.debug.dgreen {
+.dgreen {
   background-color: green;
 }
 
@@ -236,3 +236,38 @@ section:nth-child(2)>span {
 }
 
 /* SECTION 3 */
+
+section:nth-child(3) {
+  padding-top: 220px;
+}
+.partner-img {
+  width: 60%;
+}
+
+.partner-img img {
+  width: 100%;
+}
+
+.partner-finder {
+  width: 40%;
+  justify-content: center;
+  padding: 40px;
+}
+
+.partner-finder h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 30px 0 15px 0;
+}
+
+.partner-finder p {
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+
+.partner-finder a {
+  border: 1px solid #3d3d3d;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #3d3d3d;
+}
