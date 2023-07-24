@@ -5,7 +5,8 @@
 }
 
 body {
- font-family: 'Open Sans', sans-serif;;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
 }
 
 
@@ -24,19 +25,22 @@ body {
   background-color: green;
 }
 
+
 /* /END DEBUG------------------------------------------- */
 
 /* GENERAL---------------------------------------------- */
-:root {
-  --drop-blue: #0061ff
-}
+
 .blue {
-  background-color: var(--drop-blue);
+  background-color: #0061ff;
+  color: white;
+}
+.light-blue {
+  background-color:#b4d0e7 ;
 }
 .row {
   display: flex;
 }
-.column {
+.col {
   display: flex;
   flex-direction: column;
 }
@@ -71,10 +75,58 @@ header ul {
   justify-content: space-around;
 }
 header ul li {
-  padding: 0 35px;
+  padding: 0 25px;
   font-size: 1.1rem;
 }
 
 header ul li a {
   color: white;
+}
+
+/* MAIN--------------------------------------------------- */
+
+/* section1 */
+
+.jumbotron {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.jumbotron>.container {
+  width: 90%;
+  max-width: 1300px ; 
+}
+
+.jumbotron h1 {
+  font-size: 5.5rem;
+  font-weight: 900;
+  padding: 80px 0 55px 0;
+  width: 100%;
+}
+
+.jumbo-left {
+  width: 35%;
+  font-size: 1.1rem;
+  gap: 40px;
+}
+
+.jumbo-left a {
+  align-self: flex-start;
+}
+
+.jumbo-filler {
+  width: 65%;
+  height: 435px;
+}
+
+.jumbo-filler img {
+  width: 110%;
+}
+
+.fa-arrow-down {
+  font-size: 4rem;
+  font-weight: 900;
+  padding-top: 40px;
+ 
 }
