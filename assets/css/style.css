@@ -7,3 +7,74 @@
 body {
  font-family: 'Open Sans', sans-serif;;
 }
+
+
+/* DEBUG */
+
+.debug {
+  border: 2px solid black;
+  width: 100%;
+}
+
+.debug.dred {
+  background-color: red;
+}
+
+.debug.dgreen {
+  background-color: green;
+}
+
+/* /END DEBUG------------------------------------------- */
+
+/* GENERAL---------------------------------------------- */
+:root {
+  --drop-blue: #0061ff
+}
+.blue {
+  background-color: var(--drop-blue);
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 10px 20px;
+}
+
+/* HEADER----------------------------------------------- */
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  padding-left: 20px;
+  width: 150px;
+}
+
+header ul {
+  justify-content: space-around;
+}
+header ul li {
+  padding: 0 35px;
+  font-size: 1.1rem;
+}
+
+header ul li a {
+  color: white;
+}
