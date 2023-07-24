@@ -286,14 +286,29 @@ section:nth-child(3) {
 .db-business {
   padding-top: 120px;
 }
-.db-business>h2 {
+.db-business h2 {
   font-size: 2.8rem;
+  margin-bottom: 80px;
 }
 
 .business-card {
-  width: 32%;
+  width: 31%;
+  margin-bottom: 50px;
 }
 
 .business-card img {
   width: 100%;
 }
+
+.business-card h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  padding-bottom: 32px;
+}
+
+.business-card p {
+  font-size: 1.15rem;
+}
+
+/* SECTION 5 ----------------------------*/
+
