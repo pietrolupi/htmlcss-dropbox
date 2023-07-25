@@ -183,18 +183,24 @@ main {
 
 .jumbo-filler {
   width: 65%;
+  min-width: 60%;
   height: 435px;
+  
 }
 
-.jumbo-filler img {
-  width: 110%;
+.jumbotron img {
+  width: 900px;
+  
+  position: absolute;
+  bottom: -100px;
+  left: 40%;
 }
 
 .fa-arrow-down {
   font-size: 4rem;
   font-weight: 900;
   padding-top: 40px;
- 
+  color: black;
 }
 
 /* section 2 */
