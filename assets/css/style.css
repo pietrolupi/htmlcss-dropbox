@@ -88,6 +88,9 @@ a {
 .big.btn {
   padding:  12px 40px;
 }
+.big.btn.spec {
+  padding: 12px 100px;
+}
 
 .lightgrey {
   color: rgb(109, 109, 109);
