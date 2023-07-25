@@ -112,6 +112,7 @@ header {
   align-items: center;
   background-color: white;
   box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.363);
+  min-width: 1300px;
 
   position:fixed;
   top: 0;
@@ -148,6 +149,8 @@ header .underlined:hover {
 
 
 
+
+
 /* MAIN--------------------------------------------------- */
 main {
   padding-top: 80px;
@@ -158,6 +161,7 @@ main {
   justify-content: center;
   align-items: center;
   position: relative;
+  min-width: 1350px;
 }
 
 .jumbotron>.container {
@@ -201,6 +205,7 @@ main {
   font-size: 4rem;
   font-weight: 900;
   padding-top: 40px;
+  padding-bottom: 20px;
   color: black;
 }
 
@@ -348,6 +353,8 @@ section:nth-child(3) {
 .business-card {
   width: 31%;
   margin-bottom: 50px;
+  transition: transform 1s ease, box-shadow 1s ease;
+  
 }
 
 .business-card img {
@@ -370,6 +377,19 @@ section:nth-child(3) {
 }
 .end-section h2 {
   font-weight: 800;
+}
+
+.business-card:hover {
+  transform: scale(1.2);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px black, -5px 0 10px black;
+  padding: 10px;
+  cursor: pointer;
+}
+.business-card:hover h3 {
+  color: #0061ff;
+  text-decoration: underline;
 }
 
 
@@ -418,33 +438,46 @@ section:nth-child(3) {
 .square.container.central p {
   padding-bottom: 50px;
 }
-.left.square div:first-child {
+.greensquare {
   background-color: #a2d39b;
   
 }
-.left.square div:nth-child(2) {
+.darkredsquare {
   background-color:#61082b ;
 }
 
-.left.square div:nth-child(3) {
+.azuresquare {
   background-color: #0093ce;
 }
 
-.left.square div:nth-child(4) {
+.redsquare {
   background-color:#ff1c1c ;
 }
-.right.square div:first-child {
+.deepredsquare {
   background-color: #d5001f;
 }
 
-.right.square div:nth-child(2) {
+.lightazuresquare {
   background-color:#b4d0e7 ;
 }
-.right.square div:nth-child(3) {
+.bluesquare {
   background-color:#0d2481 ;
 }
-.right.square div:nth-child(4) {
+.yellowsquare {
   background-color:#ffd830 ;
+}
+
+.small-square:hover .mask {
+  border: 20px solid rgba(255, 255, 255, 0.426);
+}
+
+.small-square {
+  position: relative;
+}
+.mask {
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 /* SECTION 6------------------------------- */
@@ -478,6 +511,8 @@ section:nth-child(3) {
   color: black;
 }
 
+
+
 /* SECTION 7 ---------------------------------- */
 
 .faq {
@@ -492,6 +527,7 @@ section:nth-child(3) {
   margin: 40px 0;
 }
 
+
 .faq .row p {
   font-weight: 800;
 }
@@ -503,12 +539,47 @@ section:nth-child(3) {
   display: none;
 }
 
-
-
-.text-opener:active .hidden-textone {
-  display: inline-block;
+.text-opener1:hover .fa-chevron-down {
+  position: relative;
+  animation: 5s pointing linear;
+  animation-iteration-count: infinite;
+  transform: rotate(90deg);
+  transition: ease-in-out;
 }
 
+.text-opener2:hover .fa-chevron-down {
+  position: relative;
+  animation: 5s pointing linear;
+  animation-iteration-count: infinite;
+  transform: rotate(90deg);
+  transition: ease-in-out;
+}
+
+.text-opener3:hover .fa-chevron-down {
+  position: relative;
+  animation: 5s pointing linear;
+  animation-iteration-count: infinite;
+  transform: rotate(90deg);
+  transition: ease-in-out;
+}
+
+@keyframes pointing {
+  0% { left: 0px;}
+  25% {left: -120px;}
+  50% {left: 0px;}
+  75% {left: -120px;}
+  100%{left: 0px;}
+}
+
+.text-opener1:hover .hidden-text1 {
+  display: block;
+}
+.text-opener2:hover .hidden-text2 {
+  display: block;
+}
+.text-opener3:hover .hidden-text3 {
+  display: block;
+}
 
 /* FOOTER ---------------------------------------- */
 
