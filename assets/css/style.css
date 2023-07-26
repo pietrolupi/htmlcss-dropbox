@@ -134,7 +134,7 @@ header .underlined:hover {
 main {
   padding-top: 80px;
 }
-/* section1 */
+/* JUMBOTRON (section1)----------------------------------- */
 
 .jumbotron {
   justify-content: center;
@@ -187,8 +187,10 @@ main {
   padding-bottom: 20px;
   color: black;
 }
+/* ------------------------------------------------------- */
 
-/* SECTION 2 */
+
+/* CARDS OFFERTE (section2)------------------------------- */
 
 section:nth-child(2) h2 {
   padding: 150px 0 50px 0;
@@ -217,8 +219,8 @@ section:nth-child(2)>span {
   display: inline-block;
   vertical-align: middle;
 }
-/* OFFERS CARDS!!!!!! */
 
+      /* small cards */
 
 .card-container {
   justify-content: space-between;
@@ -280,6 +282,8 @@ section:nth-child(2)>span {
   font-size: 1.1rem;
  }
 
+                /* big card */
+
  .big.card {
   border: 1px solid lightgray;
   
@@ -304,8 +308,9 @@ section:nth-child(2)>span {
  .big-card-left p {
   padding: 30px 0;
  }
- 
-/* SECTION 3 */
+/* ------------------------------------------------------- */
+
+/* PARTNER-FINDER (section3)------------------------------ */
 
 section:nth-child(3) {
   padding-top: 220px;
@@ -342,10 +347,10 @@ section:nth-child(3) {
   font-size: 1.2rem;
   color: #3d3d3d;
 }
+/* ------------------------------------------------------- */
 
 
-
-/* SECTION 4------------------------- */
+/* BUSINESS INFO-CARDS (section4)------------------------- */
 
 .db-business {
   padding-top: 120px;
@@ -397,10 +402,9 @@ section:nth-child(3) {
   text-decoration: underline;
 }
 
+/* ------------------------------------------------------- */
 
-/* SECTION 5 ----------------------------*/
-
-
+/* LOGO-BOX-CONTAINER (section5) --------------------------*/
 
 .square-container {
   height: 33vw;
@@ -484,8 +488,9 @@ section:nth-child(3) {
   height: 100%;
   width: 100%;
 }
+/* ------------------------------------------------------- */
 
-/* SECTION 6------------------------------- */
+/* ----------(section6)----------------------------------- */
 
 .db-business-download {
   margin: 0 auto;
@@ -515,10 +520,10 @@ section:nth-child(3) {
   background-color: white;
   color: black;
 }
+/* ------------------------------------------------------- */
 
 
-
-/* SECTION 7 ---------------------------------- */
+/* FAQ SECTION (section7)--------------------------------- */
 
 .faq {
   padding-top: 150px;
@@ -585,8 +590,10 @@ section:nth-child(3) {
 .text-opener3:hover .hidden-text3 {
   display: block;
 }
+/* ------------------------------------------------------- */
 
-/* FOOTER ---------------------------------------- */
+
+/* FOOTER ------------------------------------------------ */
 
 footer {
   background-color: black;
@@ -630,7 +637,7 @@ footer hr {
   margin: 50px 0;
 }
 
-/* EFFETTI */
+/* --------------EFFETTI---------------------------------- */
 
 .btn:hover {
   filter: brightness(80%);
